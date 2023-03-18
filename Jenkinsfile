@@ -9,7 +9,7 @@ pipeline{
             steps{
       			checkout([$class: 'GitSCM', branches: [[name: '*/master']],
 			extensions: [],
-			userRemoteConfigs: [[url: 'https://github.com/med-aziz-ben-haha/test_app_angular.git']]])
+			userRemoteConfigs: [[url: 'https://github.com/med-aziz-ben-haha/angular-app.git']]])
             }
         }
 
